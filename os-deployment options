@@ -1,0 +1,30 @@
+there are several open source packages that are recommended for model deployment. Here are a few examples:
+
+TensorFlow Serving: This is an open source serving system for machine learning models that is developed by Google. It provides a flexible architecture for deploying models, supports a wide range of model types and platforms, and provides robust monitoring and scaling capabilities.
+
+PyTorch Serve: This is an open source model serving tool that is developed by Facebook. It provides a high-performance and scalable serving infrastructure for PyTorch models, and supports features such as model versioning, multi-model serving, and dynamic batching.
+
+Seldon Core: This is an open source platform for deploying and managing machine learning models at scale. It provides a range of features such as model versioning, A/B testing, and model explainability, and supports multiple machine learning frameworks including TensorFlow, PyTorch, and XGBoost.
+
+MLflow: This is an open source platform for managing the end-to-end machine learning lifecycle, including model deployment. It provides a simple REST API for deploying models, supports multiple deployment targets including Docker and Kubernetes, and integrates with popular machine learning frameworks such as TensorFlow, PyTorch, and Scikit-learn.
+
+Cortex: This is an open source platform for deploying machine learning models in production. It provides a simple API for deploying models, supports multiple machine learning frameworks, and provides features such as auto-scaling, load balancing, and model monitoring.
+
+These open source packages provide a range of capabilities for model deployment and management, and the specific choice will depend on your requirements and the machine learning framework that you are using.
+
+
+
+BENTOML
+BentoML is another great open source package for deploying machine learning models. It provides a simple and flexible framework for packaging, deploying, and managing models in production. Here are some benefits of BentoML:
+
+Simplified deployment: BentoML provides a simple API for deploying models to various target platforms such as Kubernetes, Docker, and serverless environments.
+
+Model serving: BentoML allows users to serve their models through various means such as REST API, batch processing, and real-time stream processing.
+
+Model packaging: With BentoML, models can be packaged with all their dependencies and configuration files for easy deployment.
+
+Scalability: BentoML enables easy scaling of models to handle high traffic and larger workloads.
+
+Customizability: BentoML provides flexibility in defining custom model serving and deployment configurations.
+
+Overall, BentoML is a great choice for deploying machine learning models, especially for developers who want a flexible and lightweight framework for serving their models. BentoML supports a wide range of machine learning frameworks such as TensorFlow, PyTorch, and Scikit-learn, and provides features such as model versioning, monitoring, and management.
